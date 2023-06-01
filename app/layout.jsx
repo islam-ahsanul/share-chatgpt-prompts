@@ -20,3 +20,6 @@ const RootLayout = ({ children }) => {
 };
 
 export default RootLayout;
+
+// https://www.youtube.com/watch?v=wm5gMKuwSYk
+// 53
