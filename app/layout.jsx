@@ -1,4 +1,6 @@
 import '@styles/global.css'; // import '../styles/global.css';
+import Nav from '@components/Nav';
+import Provider from '@components/Provider';
 
 export const metadata = {
   title: 'SharePrompts',
@@ -13,7 +15,10 @@ const RootLayout = ({ children }) => {
           <div className="gradient"></div>
         </div>
 
-        <main className="app">{children}</main>
+        <main className="app">
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );
@@ -22,4 +27,4 @@ const RootLayout = ({ children }) => {
 export default RootLayout;
 
 // https://www.youtube.com/watch?v=wm5gMKuwSYk
-// 53
+// 1hr
