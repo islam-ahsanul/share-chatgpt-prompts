@@ -29,4 +29,4 @@ const RootLayout = ({ children }) => {
 export default RootLayout;
 
 // https://www.youtube.com/watch?v=wm5gMKuwSYk
-// 1hr 41 min
+// 1hr 44 min Uri error
