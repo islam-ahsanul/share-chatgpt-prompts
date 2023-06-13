@@ -29,4 +29,4 @@ const RootLayout = ({ children }) => {
 export default RootLayout;
 
 // https://www.youtube.com/watch?v=wm5gMKuwSYk
-// 1hr 46 min
+// 1hr 50 min
