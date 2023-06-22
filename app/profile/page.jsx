@@ -8,10 +8,10 @@ import Profile from '@components/Profile';
 
 const MyProfile = () => {
   const { data: session } = useSession();
+  const [posts, setPosts] = useState([]);
+
   const handleEdit = () => {};
   const handleDelete = async () => {};
-
-  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
